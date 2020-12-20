@@ -8,7 +8,6 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
-use NumberFormatter;
 
 /**
  * Class DashboardController
@@ -60,9 +59,7 @@ class SummaryController extends Controller
 
         return view('summary', [
             'summary'       => $summary,
-            'formattedWeek' => (new NumberFormatter(
-                config('app.locale'), NumberFormatter::ORDINAL)
-            )->format($week),
+            'formattedWeek' => ordinal($week),
             'weekData'      => $this->repository->getWeekData($week),
             'hasGames'      => $this->simulator->hasGames(),
         ]);
