@@ -92,6 +92,8 @@ class EloquentSummaryRepository
             ->createData($this->fractalCollection)->toArray();
 
         return collect(data_get($resultData, 'data'))
+            ->sortByDesc('goals_for')
+            ->sortByDesc('goal_difference')
             ->sortByDesc('points')
             ->toArray();
     }
