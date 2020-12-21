@@ -12,7 +12,7 @@
                                 @csrf
                                 <button type="submit"
                                         class="btn btn-danger"
-                                        onclick="return confirm('You want to reset all results. Are you sure?')">Reset schedule</button>
+                                        onclick="return confirm('You want to reset all results. Are you sure?')">Reset results</button>
                             </form>
                         </div>
                         <div class="float-right mr-4">
