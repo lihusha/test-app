@@ -1,44 +1,19 @@
 <?php
 
-namespace App\Console\Commands;
+namespace App\Services;
 
 use App\Models\Club;
 use App\Models\Game;
 use App\Models\Goal;
-use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 /**
- * Class ResetSchedule
- * @package App\Console\Commands
+ * Class ResetScheduleService
+ * @package App\Services
  */
-class ResetSchedule extends Command
+class ResetScheduleService
 {
-    /**
-     * The name and signature of the console command.
-     *
-     * @var string
-     */
-    protected $signature = 'schedule:reset';
-
-    /**
-     * The console command description.
-     *
-     * @var string
-     */
-    protected $description = 'Reset schedule';
-
-    /**
-     * Create a new command instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
     /**
      * Execute the console command.
      *

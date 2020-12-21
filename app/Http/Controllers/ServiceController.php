@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\ResetScheduleService;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\Support\Facades\Artisan;
 
 /**
  * Class ServiceController
@@ -14,9 +14,9 @@ class ServiceController extends Controller
     /**
      * @return RedirectResponse
      */
-    public function resetSchedule()
+    public function resetSchedule(ResetScheduleService $service)
     {
-        Artisan::call('schedule:reset');
+        $service->handle();
 
         return redirect()->route('summary.index');
     }
