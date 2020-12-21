@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Artisan;
 
 /**
@@ -11,9 +12,9 @@ use Illuminate\Support\Facades\Artisan;
 class ServiceController extends Controller
 {
     /**
-     * @return string
+     * @return RedirectResponse
      */
-    public function resetSchedule(): string
+    public function resetSchedule()
     {
         Artisan::call('schedule:reset');
 
