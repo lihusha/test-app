@@ -39,7 +39,7 @@
                     <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-theme"></i>Web developer (Laravel)</p>
                     <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-theme"></i>65481 Yuzhne, Ukraine</p>
                     <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-theme"></i>i.lykhusha@gmail.com</p>
-                    <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-theme"></i>+380 67 395 52 67</p>
+                    <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-theme"></i>+380 93 543 01 28</p>
                     <p><i class="fa fa-skype fa-fw w3-margin-right w3-large w3-text-theme"></i>phoenix8571</p>
 
                     <hr>
