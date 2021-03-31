@@ -17,9 +17,9 @@ use App\Http\Controllers\ServiceController;
 |
 */
 
-Route::get('/', [SummaryController::class, 'index'])->name('summary.index');
+Route::get('/summary', [SummaryController::class, 'index'])->name('summary.index');
 Route::get('play', [PlayController::class, 'play'])->name('play');
 Route::post('service/reset-schedule', [ServiceController::class, 'resetSchedule'])
     ->name('service.reset-schedule');
 
-Route::get('cv', [CvController::class, 'show']);
+Route::get('/', [CvController::class, 'show']);
