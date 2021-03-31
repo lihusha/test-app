@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CvController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SummaryController;
 use App\Http\Controllers\PlayController;
@@ -20,3 +21,5 @@ Route::get('/', [SummaryController::class, 'index'])->name('summary.index');
 Route::get('play', [PlayController::class, 'play'])->name('play');
 Route::post('service/reset-schedule', [ServiceController::class, 'resetSchedule'])
     ->name('service.reset-schedule');
+
+Route::get('cv', [CvController::class, 'show']);
