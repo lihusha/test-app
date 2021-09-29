@@ -75,7 +75,7 @@
                         <p>Bootsrap CSS</p>
                     </div>
 
-                    <p><b>Management and CI services</b></p>
+                    <p><b>Management</b></p>
                     <div class="skills-sub-block">
                         <p>Jira</p>
                         <p>Trello</p>
@@ -88,27 +88,30 @@
                         <p>Ubuntu 18.04, 20.04 (since 2018)</p>
                     </div>
 
-                    <p><b>Services, tools, APIs</b></p>
+                    <p><b>Services, platforms, tools, APIs</b></p>
                     <div class="skills-sub-block">
-                        <p>JWT</p>
                         <p>AWS Cognito</p>
-                        <p>Swagger</p>
-                        <p>PJAX</p>
-                        <p>Doctrine</p>
-                        <p>PHPMD</p>
-                        <p>GrumPHP</p>
-                        <p>PHP_CodeSniffer</p>
-                        <p>Google Maps</p>
-                        <p>Google Analytics</p>
-                        <p>Sentry</p>
+                        <p>Bitbucket</p>
                         <p>Clockwork</p>
-                        <p>GitHub API</p>
-                        <p>Stripe API</p>
+                        <p>Docker</p>
+                        <p>Doctrine</p>
                         <p>Dropbox API</p>
+                        <p>GitHub API</p>
+                        <p>Google Analytics</p>
+                        <p>Google Maps</p>
+                        <p>GrumPHP</p>
+                        <p>JWT</p>
+                        <p>Neteller</p>
+                        <p>Pay Safe</p>
+                        <p>PHP_CodeSniffer</p>
+                        <p>PHPMD</p>
+                        <p>Phpstan</p>
+                        <p>PJAX</p>
                         <p>SalesForce API</p>
                         <p>Secure Trading</p>
-                        <p>Pay Safe</p>
-                        <p>Neteller</p>
+                        <p>Sentry</p>
+                        <p>Stripe API</p>
+                        <p>Swagger</p>
                     </div>
 
                     <hr>
