@@ -221,7 +221,6 @@
                         <div class="body w3-text-grey">
                             <ul>
                                 <li>Laravel 5.7</li>
-                                <li>Lucid architecture</li>
                                 <li>DDD</li>
                                 <li>Lucid application architecture</li>
                             </ul>
